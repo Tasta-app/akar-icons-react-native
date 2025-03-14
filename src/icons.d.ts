@@ -1,13 +1,13 @@
 /// <reference types="react" />
-  import { ComponentType, SVGAttributes } from 'react';
+import { ComponentType, SVGAttributes } from 'react';
 
-  interface Props extends SVGAttributes<SVGElement> {
-    color?: string;
-    size?: string | number;
-  }
+interface Props extends SVGAttributes<SVGElement> {
+  color?: string;
+  size?: string | number;
+}
 
-  type Icon = ComponentType<Props>;
-  export const ArrowUp: Icon;
+type Icon = ComponentType<Props>;
+export const ArrowUp: Icon;
 export const ArrowDown: Icon;
 export const ArrowDownLeft: Icon;
 export const ArrowUpRight: Icon;
