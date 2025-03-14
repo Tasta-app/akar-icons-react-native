@@ -50,10 +50,10 @@ const attrsToString = (attrs, style) => {
     .map((key) => {
       // should distinguish fill or stroke
       if (key === 'width' || key === 'height' || key === style) {
-        return key + '={' + attrs[key] + '}';
+        return key + '="${' + attrs[key] + '}"';
       }
       if (key === 'otherProps') {
-        return '{...otherProps}';
+        return;
       }
       return key + '="' + attrs[key] + '"';
     })
@@ -65,7 +65,7 @@ const generateIconCode = async ({ name }) => {
   const names = parseName(name, defaultStyle);
   console.log(names);
   const location = path.join(rootDir, 'src/svg', `${names.name}.svg`);
-  const destination = path.join(rootDir, 'src/icons', `${names.name}.js`);
+  const destination = path.join(rootDir, 'src/icons', `${names.name}.jsx`);
   const code = fs.readFileSync(location);
   const svgCode = await processSvg(code);
   const ComponentName = names.componentName;
