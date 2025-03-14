@@ -15,8 +15,8 @@ const Download = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M12 15V3m0 12l-4-4m4 4l4-4"></path>
-      <path d="M2 17l.621 2.485A2 2 0 0 0 4.561 21H19.439a2 2 0 0 0 1.94-1.515L22 17"></path>
+      <path d="M12 15V3m0 12-4-4m4 4 4-4"></path>
+      <path d="m2 17 .621 2.485A2 2 0 0 0 4.561 21h14.877a2 2 0 0 0 1.94-1.515L22 17"></path>
     </svg>
   );
 };

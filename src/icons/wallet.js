@@ -15,7 +15,7 @@ const Wallet = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6z"></path>
+      <path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6"></path>
       <path d="M2 8h20"></path>
       <path d="M2 12h7c0 1 .6 3 3 3s3-2 3-3h7"></path>
     </svg>

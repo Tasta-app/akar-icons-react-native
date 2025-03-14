@@ -17,33 +17,33 @@ const DragVerticalFill = ({
     >
       <path
         fillRule="evenodd"
+        d="M16 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M16 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M16 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M16 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M8 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M8 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M16 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M16 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M8 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M8 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M8 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M8 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
     </svg>
   );

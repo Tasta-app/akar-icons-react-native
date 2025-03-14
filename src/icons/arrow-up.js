@@ -16,7 +16,7 @@ const ArrowUp = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M12 20V4"></path>
-      <path d="M5 11l7-7 7 7"></path>
+      <path d="m5 11 7-7 7 7"></path>
     </svg>
   );
 };

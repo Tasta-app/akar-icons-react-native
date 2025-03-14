@@ -22,8 +22,8 @@ const AlignToMiddle = ({
       <path d="M21 12H3"></path>
       <path d="M12 2v6"></path>
       <path d="M12 22v-6"></path>
-      <path d="M9 5l3 3 3-3"></path>
-      <path d="M9 19l3-3 3 3"></path>
+      <path d="m9 5 3 3 3-3"></path>
+      <path d="m9 19 3-3 3 3"></path>
     </svg>
   );
 };

@@ -19,7 +19,7 @@ const ChevronRightSmall = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M9 6l6 6-6 6"></path>
+      <path d="m9 6 6 6-6 6"></path>
     </svg>
   );
 };

@@ -20,7 +20,7 @@ const CircleTriangleDown = ({
       {...otherProps}
     >
       <circle cx="12" cy="12" r="10"></circle>
-      <path d="M12 16l-4-6h8l-4 6z"></path>
+      <path d="m12 16-4-6h8z"></path>
     </svg>
   );
 };

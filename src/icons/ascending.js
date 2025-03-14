@@ -15,10 +15,10 @@ const Ascending = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M6 3v18M6 3l3 3.333M6 3L3 6.333"></path>
-      <path d="M14 21h8l-1-4h-7v4z"></path>
-      <path d="M14 14h6l-1-4h-5v4z"></path>
-      <path d="M14 7h4l-1-4h-3v4z"></path>
+      <path d="M6 3v18M6 3l3 3.333M6 3 3 6.333"></path>
+      <path d="M14 21h8l-1-4h-7z"></path>
+      <path d="M14 14h6l-1-4h-5z"></path>
+      <path d="M14 7h4l-1-4h-3z"></path>
     </svg>
   );
 };

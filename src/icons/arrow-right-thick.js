@@ -19,7 +19,7 @@ const ArrowRightThick = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M21 12l-7-9v4.99L3 8v8h11v5l7-9z"></path>
+      <path d="m21 12-7-9v4.99L3 8v8h11v5z"></path>
     </svg>
   );
 };

@@ -15,7 +15,7 @@ const Bank = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M20 11V8l-8-5-8 5v3h16z"></path>
+      <path d="M20 11V8l-8-5-8 5v3h16"></path>
       <path d="M3 21h18"></path>
       <path d="M5 20v-5h2"></path>
       <path d="M17 20v-5h2"></path>

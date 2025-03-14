@@ -20,7 +20,7 @@ const AirplayVideo = ({
       {...otherProps}
     >
       <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path>
-      <path d="M12 16l6 5H6l6-5z"></path>
+      <path d="m12 16 6 5H6z"></path>
     </svg>
   );
 };

@@ -15,7 +15,7 @@ const CircleX = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M15 15L9 9m6 0l-6 6"></path>
+      <path d="M15 15 9 9m6 0-6 6"></path>
       <circle cx="12" cy="12" r="10"></circle>
     </svg>
   );

@@ -15,7 +15,7 @@ const ChevronUp = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M4 15l8-8 8 8"></path>
+      <path d="m4 15 8-8 8 8"></path>
     </svg>
   );
 };

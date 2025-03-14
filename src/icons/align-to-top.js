@@ -16,7 +16,7 @@ const AlignToTop = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M12 22V7"></path>
-      <path d="M5 14l7-7 7 7"></path>
+      <path d="m5 14 7-7 7 7"></path>
       <path d="M3 2h18"></path>
     </svg>
   );

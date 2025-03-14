@@ -15,7 +15,7 @@ const Cursor = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M3 3l7 19 2.051-6.154a6 6 0 0 1 3.795-3.795L22 10 3 3z"></path>
+      <path d="m3 3 7 19 2.051-6.154a6 6 0 0 1 3.795-3.795L22 10z"></path>
     </svg>
   );
 };

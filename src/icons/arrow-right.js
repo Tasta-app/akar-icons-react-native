@@ -16,7 +16,7 @@ const ArrowRight = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M4 12h16"></path>
-      <path d="M13 5l7 7-7 7"></path>
+      <path d="m13 5 7 7-7 7"></path>
     </svg>
   );
 };

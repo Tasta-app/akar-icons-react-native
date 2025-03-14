@@ -15,7 +15,7 @@ const Box = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="3" y="3" width="18" height="18" rx="4"></rect>
+      <rect width="18" height="18" x="3" y="3" rx="4"></rect>
     </svg>
   );
 };

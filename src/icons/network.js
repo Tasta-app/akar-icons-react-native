@@ -18,7 +18,7 @@ const Network = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       <circle cx="18" cy="5" r="3"></circle>
       <circle cx="18" cy="19" r="3"></circle>
       <circle cx="6" cy="12" r="3"></circle>
-      <path d="M15.408 6.512l-6.814 3.975m6.814 7.001l-6.814-3.975"></path>
+      <path d="m15.408 6.512-6.814 3.975m6.814 7.001-6.814-3.975"></path>
     </svg>
   );
 };

@@ -19,8 +19,8 @@ const CreditCardAlt1 = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-      <rect x="6" y="8" width="2" height="2"></rect>
+      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+      <rect width="2" height="2" x="6" y="8"></rect>
     </svg>
   );
 };

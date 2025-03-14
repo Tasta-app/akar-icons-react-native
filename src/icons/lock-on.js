@@ -15,8 +15,8 @@ const LockOn = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="3" y="10" width="18" height="12" rx="2"></rect>
-      <path d="M6 6a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v4H6V6z"></path>
+      <rect width="18" height="12" x="3" y="10" rx="2"></rect>
+      <path d="M6 6a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v4H6z"></path>
     </svg>
   );
 };

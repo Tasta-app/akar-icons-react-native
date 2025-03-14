@@ -17,33 +17,33 @@ const DragHorizontalFill = ({
     >
       <path
         fillRule="evenodd"
+        d="M22 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
         clipRule="evenodd"
-        d="M22 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M22 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
         clipRule="evenodd"
-        d="M22 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M14 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
         clipRule="evenodd"
-        d="M14 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M6 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
         clipRule="evenodd"
-        d="M6 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M6 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
         clipRule="evenodd"
-        d="M6 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
         clipRule="evenodd"
-        d="M14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
       ></path>
     </svg>
   );

@@ -15,7 +15,7 @@ const Check = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M4 12l6 6L20 6"></path>
+      <path d="m4 12 6 6L20 6"></path>
     </svg>
   );
 };

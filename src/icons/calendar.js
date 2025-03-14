@@ -15,7 +15,7 @@ const Calendar = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="4" width="20" height="18" rx="4"></rect>
+      <rect width="20" height="18" x="2" y="4" rx="4"></rect>
       <path d="M8 2v4"></path>
       <path d="M16 2v4"></path>
       <path d="M2 10h20"></path>

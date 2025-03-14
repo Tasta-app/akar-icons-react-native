@@ -15,10 +15,10 @@ const WineGlass = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M12 13c6 0 8-4.477 8-10H4c0 5.523 2 10 8 10z"></path>
+      <path d="M12 13c6 0 8-4.477 8-10H4c0 5.523 2 10 8 10"></path>
       <path d="M12 13v7"></path>
       <path d="M5 8h14"></path>
-      <path d="M8 22h8l-4-2-4 2z"></path>
+      <path d="M8 22h8l-4-2z"></path>
     </svg>
   );
 };

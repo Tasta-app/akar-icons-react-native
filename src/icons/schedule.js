@@ -19,7 +19,7 @@ const Schedule = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       <path d="M8 2v2"></path>
       <path d="M15 2v2"></path>
       <path d="M2 8h19"></path>
-      <path d="M18.5 15.643l-1.5 1.5"></path>
+      <path d="m18.5 15.643-1.5 1.5"></path>
       <circle cx="17" cy="17" r="5"></circle>
     </svg>
   );

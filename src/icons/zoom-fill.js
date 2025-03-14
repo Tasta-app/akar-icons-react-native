@@ -11,15 +11,15 @@ const ZoomFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       fill={color}
       {...otherProps}
     >
-      <g clipPath="url(#clip0_822_311)">
+      <g clipPath="url(#a)">
         <path
           fillRule="evenodd"
+          d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12M6 16.2h9V9.6a1.8 1.8 0 0 0-1.8-1.8h-9v6.6A1.8 1.8 0 0 0 6 16.2m10.2-2.4 3.6 2.4V7.8l-3.6 2.4z"
           clipRule="evenodd"
-          d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12zM6 16.2h9V9.6a1.8 1.8 0 0 0-1.8-1.8h-9v6.6A1.8 1.8 0 0 0 6 16.2zm10.2-2.4l3.6 2.4V7.8l-3.6 2.4v3.6z"
         ></path>
       </g>
       <defs>
-        <clipPath id="clip0_822_311">
+        <clipPath id="a">
           <rect width="24" height="24"></rect>
         </clipPath>
       </defs>

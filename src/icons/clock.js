@@ -16,7 +16,7 @@ const Clock = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <circle cx="12" cy="12" r="10"></circle>
-      <path d="M15 16l-2.414-2.414A2 2 0 0 1 12 12.172V6"></path>
+      <path d="m15 16-2.414-2.414A2 2 0 0 1 12 12.172V6"></path>
     </svg>
   );
 };

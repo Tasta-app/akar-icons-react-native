@@ -15,8 +15,8 @@ const Hashtag = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M10 3L6 21"></path>
-      <path d="M18 3l-4 18"></path>
+      <path d="M10 3 6 21"></path>
+      <path d="m18 3-4 18"></path>
       <path d="M4 8h17"></path>
       <path d="M3 16h17"></path>
     </svg>

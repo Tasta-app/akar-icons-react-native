@@ -20,8 +20,8 @@ const AlignBottom = ({
       {...otherProps}
     >
       <path d="M21 22H3"></path>
-      <path d="M6 18V2h4v16H6z"></path>
-      <path d="M14 18V8h4v10h-4z"></path>
+      <path d="M6 18V2h4v16z"></path>
+      <path d="M14 18V8h4v10z"></path>
     </svg>
   );
 };

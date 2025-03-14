@@ -15,10 +15,10 @@ const Sword = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M18 3l4-1-1 4-10 10-2.5-.5L8 13 18 3z"></path>
-      <path d="M2 20l2 2"></path>
-      <path d="M5 14l1 4 4 1"></path>
-      <path d="M6 18l-3 3"></path>
+      <path d="m18 3 4-1-1 4-10 10-2.5-.5L8 13z"></path>
+      <path d="m2 20 2 2"></path>
+      <path d="m5 14 1 4 4 1"></path>
+      <path d="m6 18-3 3"></path>
     </svg>
   );
 };

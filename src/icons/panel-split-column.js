@@ -19,7 +19,7 @@ const PanelSplitColumn = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="3" width="20" height="18" rx="2"></rect>
+      <rect width="20" height="18" x="2" y="3" rx="2"></rect>
       <path d="M22 12H2"></path>
     </svg>
   );

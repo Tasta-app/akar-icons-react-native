@@ -15,7 +15,7 @@ const ArrowLeft = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M11 5l-7 7 7 7"></path>
+      <path d="m11 5-7 7 7 7"></path>
       <path d="M4 12h16"></path>
     </svg>
   );

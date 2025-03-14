@@ -15,7 +15,7 @@ const TriangleUp = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M12 7l-6 8h12l-6-8z"></path>
+      <path d="m12 7-6 8h12z"></path>
     </svg>
   );
 };

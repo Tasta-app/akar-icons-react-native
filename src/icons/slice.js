@@ -15,8 +15,8 @@ const Slice = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M13 21H3l10-10v10z"></path>
-      <path d="M5 19L21 3v4l-8 8"></path>
+      <path d="M13 21H3l10-10z"></path>
+      <path d="M5 19 21 3v4l-8 8"></path>
     </svg>
   );
 };

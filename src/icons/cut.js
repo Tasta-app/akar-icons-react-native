@@ -16,8 +16,8 @@ const Cut = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <circle cx="7" cy="18" r="3"></circle>
-      <path d="M15 15L7 3"></path>
-      <path d="M9 15l3-4.5M17 3l-3 4.5"></path>
+      <path d="M15 15 7 3"></path>
+      <path d="m9 15 3-4.5M17 3l-3 4.5"></path>
       <circle cx="17" cy="18" r="3"></circle>
     </svg>
   );

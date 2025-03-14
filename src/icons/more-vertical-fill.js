@@ -17,18 +17,18 @@ const MoreVerticalFill = ({
     >
       <path
         fillRule="evenodd"
+        d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M12 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4"
         clipRule="evenodd"
-        d="M12 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
       ></path>
     </svg>
   );

@@ -19,7 +19,7 @@ const TriangleLeft = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M7 12l8-6v12l-8-6z"></path>
+      <path d="m7 12 8-6v12z"></path>
     </svg>
   );
 };

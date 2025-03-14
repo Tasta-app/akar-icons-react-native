@@ -19,8 +19,8 @@ const ArrowRepeat = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M18 2l3 3-3 3"></path>
-      <path d="M6 22l-3-3 3-3"></path>
+      <path d="m18 2 3 3-3 3"></path>
+      <path d="m6 22-3-3 3-3"></path>
       <path d="M21 5H10a7 7 0 0 0-7 7"></path>
       <path d="M3 19h11a7 7 0 0 0 7-7"></path>
     </svg>

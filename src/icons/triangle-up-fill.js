@@ -15,7 +15,7 @@ const TriangleUpFill = ({
       fill={color}
       {...otherProps}
     >
-      <path d="M6 16a1 1 0 0 1-.8-1.6l6-8a1 1 0 0 1 1.6 0l6 8A1 1 0 0 1 18 16H6z"></path>
+      <path d="M6 16a1 1 0 0 1-.8-1.6l6-8a1 1 0 0 1 1.6 0l6 8A1 1 0 0 1 18 16z"></path>
     </svg>
   );
 };

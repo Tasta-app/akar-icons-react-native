@@ -15,8 +15,8 @@ const CheckBox = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="3" y="3" width="18" height="18" rx="4"></rect>
-      <path d="M9 12l2.25 2L15 10"></path>
+      <rect width="18" height="18" x="3" y="3" rx="4"></rect>
+      <path d="m9 12 2.25 2L15 10"></path>
     </svg>
   );
 };

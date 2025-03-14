@@ -16,8 +16,8 @@ const Play = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       {...otherProps}
     >
       <path d="M6 4v16"></path>
-      <path d="M20 12L6 20"></path>
-      <path d="M20 12L6 4"></path>
+      <path d="M20 12 6 20"></path>
+      <path d="M20 12 6 4"></path>
     </svg>
   );
 };

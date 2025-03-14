@@ -15,11 +15,11 @@ const Basket = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M2.31 11.242A1 1 0 0 1 3.28 10h17.44a1 1 0 0 1 .97 1.242l-1.811 7.243A2 2 0 0 1 17.939 20H6.061a2 2 0 0 1-1.94-1.515L2.31 11.243z"></path>
+      <path d="M2.31 11.243A1 1 0 0 1 3.28 10h17.44a1 1 0 0 1 .97 1.242l-1.811 7.243A2 2 0 0 1 17.939 20H6.061a2 2 0 0 1-1.94-1.515z"></path>
       <path d="M9 14v2"></path>
       <path d="M15 14v2"></path>
-      <path d="M6 10l4-6"></path>
-      <path d="M18 10l-4-6"></path>
+      <path d="m6 10 4-6"></path>
+      <path d="m18 10-4-6"></path>
     </svg>
   );
 };

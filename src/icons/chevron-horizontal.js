@@ -19,8 +19,8 @@ const ChevronHorizontal = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M17 8l4 4-4 4"></path>
-      <path d="M7 8l-4 4 4 4"></path>
+      <path d="m17 8 4 4-4 4"></path>
+      <path d="m7 8-4 4 4 4"></path>
     </svg>
   );
 };

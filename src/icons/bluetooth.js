@@ -15,7 +15,7 @@ const Bluetooth = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M5 7l12 10-6 5V2l6 5L5 17"></path>
+      <path d="m5 7 12 10-6 5V2l6 5L5 17"></path>
     </svg>
   );
 };

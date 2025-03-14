@@ -15,8 +15,8 @@ const Miniplayer = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-      <rect x="13" y="13" width="9" height="7" rx="2"></rect>
+      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+      <rect width="9" height="7" x="13" y="13" rx="2"></rect>
     </svg>
   );
 };

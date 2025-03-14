@@ -15,7 +15,7 @@ const Rss = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M4 10.418c6.068-.319 9.9 3.514 9.582 9.582"></path>
+      <path d="M4 10.419c6.068-.32 9.9 3.513 9.582 9.581"></path>
       <circle cx="5" cy="19" r="1"></circle>
       <path d="M4 4.03C14.114 3.5 20.501 9.887 19.97 20"></path>
     </svg>

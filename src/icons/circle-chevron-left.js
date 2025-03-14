@@ -20,7 +20,7 @@ const CircleChevronLeft = ({
       {...otherProps}
     >
       <circle cx="12" cy="12" r="10"></circle>
-      <path d="M13.5 8l-4 4 4 4"></path>
+      <path d="m13.5 8-4 4 4 4"></path>
     </svg>
   );
 };

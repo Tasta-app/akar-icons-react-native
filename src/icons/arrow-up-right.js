@@ -19,7 +19,7 @@ const ArrowUpRight = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M18 6L6 18"></path>
+      <path d="M18 6 6 18"></path>
       <path d="M8 6h10v10"></path>
     </svg>
   );

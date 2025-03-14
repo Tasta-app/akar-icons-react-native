@@ -17,18 +17,18 @@ const MoreHorizontalFill = ({
     >
       <path
         fillRule="evenodd"
+        d="M2 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
         clipRule="evenodd"
-        d="M2 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M10 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
         clipRule="evenodd"
-        d="M10 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
       ></path>
       <path
         fillRule="evenodd"
+        d="M18 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
         clipRule="evenodd"
-        d="M18 12a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
       ></path>
     </svg>
   );

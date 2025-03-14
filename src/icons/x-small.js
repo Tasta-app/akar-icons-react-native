@@ -15,7 +15,7 @@ const XSmall = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M17 17L7 7m10 0L7 17"></path>
+      <path d="M17 17 7 7m10 0L7 17"></path>
     </svg>
   );
 };

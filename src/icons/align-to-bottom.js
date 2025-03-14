@@ -21,7 +21,7 @@ const AlignToBottom = ({
     >
       <path d="M3 22h18"></path>
       <path d="M12 2v15"></path>
-      <path d="M5 10l7 7 7-7"></path>
+      <path d="m5 10 7 7 7-7"></path>
     </svg>
   );
 };

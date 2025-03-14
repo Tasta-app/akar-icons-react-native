@@ -20,7 +20,7 @@ const StatisticUp = ({
       {...otherProps}
     >
       <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
-      <path d="M7 14l4-4 4 4 6-6"></path>
+      <path d="m7 14 4-4 4 4 6-6"></path>
       <path d="M18 8h3v3"></path>
     </svg>
   );

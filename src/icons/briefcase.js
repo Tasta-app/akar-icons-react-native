@@ -15,9 +15,9 @@ const Briefcase = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <rect x="3" y="7" width="18" height="12" rx="2"></rect>
-      <path d="M9 6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1H9V6z"></path>
-      <path d="M10 12l.211.106a4 4 0 0 0 3.578 0L14 12"></path>
+      <rect width="18" height="12" x="3" y="7" rx="2"></rect>
+      <path d="M9 6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1H9z"></path>
+      <path d="m10 12 .211.106a4 4 0 0 0 3.578 0L14 12"></path>
     </svg>
   );
 };

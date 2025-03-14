@@ -20,7 +20,7 @@ const CircleTriangleRight = ({
       {...otherProps}
     >
       <circle cx="12" cy="12" r="10"></circle>
-      <path d="M16 12l-6-4v8l6-4z"></path>
+      <path d="m16 12-6-4v8z"></path>
     </svg>
   );
 };

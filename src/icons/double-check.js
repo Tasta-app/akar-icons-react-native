@@ -19,9 +19,9 @@ const DoubleCheck = ({
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M2 12l5.25 5 2.625-3"></path>
-      <path d="M8 12l5.25 5L22 7"></path>
-      <path d="M16 7l-3.5 4"></path>
+      <path d="m2 12 5.25 5 2.625-3"></path>
+      <path d="m8 12 5.25 5L22 7"></path>
+      <path d="m16 7-3.5 4"></path>
     </svg>
   );
 };

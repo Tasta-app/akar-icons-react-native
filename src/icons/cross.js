@@ -15,7 +15,7 @@ const Cross = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M20 20L4 4m16 0L4 20"></path>
+      <path d="M20 20 4 4m16 0L4 20"></path>
     </svg>
   );
 };

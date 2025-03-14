@@ -15,7 +15,7 @@ const Radio = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M3 12a9 9 0 1 1 18 0 9 9 0 0 1-18 0z"></path>
+      <path d="M3 12a9 9 0 1 1 18 0 9 9 0 0 1-18 0"></path>
     </svg>
   );
 };

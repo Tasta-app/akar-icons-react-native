@@ -15,7 +15,7 @@ const LinkOut = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <path d="M13.5 10.5L21 3"></path>
+      <path d="M13.5 10.5 21 3"></path>
       <path d="M16 3h5v5"></path>
       <path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"></path>
     </svg>

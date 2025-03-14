@@ -11,7 +11,7 @@ const VercelFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       fill={color}
       {...otherProps}
     >
-      <path d="M12 1l12 21H0L12 1z"></path>
+      <path d="m12 1 12 21H0z"></path>
     </svg>
   );
 };

@@ -11,7 +11,7 @@ const VueFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
       fill={color}
       {...otherProps}
     >
-      <path d="M19.114 2H15l-3 4.9L9.429 2H0l12 21L24 2h-4.886zM3 3.75h2.914L12 14.6l6.086-10.85H21L12 19.5 3 3.75z"></path>
+      <path d="M19.114 2H15l-3 4.9L9.429 2H0l12 21L24 2zM3 3.75h2.914L12 14.6l6.086-10.85H21L12 19.5z"></path>
     </svg>
   );
 };
