@@ -12,9 +12,9 @@ const getAttrs = (style) => {
   const strokeAttrs = {
     fill: 'none',
     stroke: 'color',
-    strokeWidth: 2,
-    strokeLinecap: 'round',
-    strokeLinejoin: 'round',
+    'stroke-width': 2,
+    'stroke-linecap': 'round',
+    'stroke-linejoin': 'round',
     otherProps: '...otherProps',
   };
   return Object.assign(
@@ -27,12 +27,22 @@ const getAttrs = (style) => {
 const getElementCode = (ComponentName, attrs, svgCode) => `
   import React from 'react';
   import PropTypes from 'prop-types';
+  import { SvgXml } from 'react-native-svg';
 
-  const ${ComponentName} = ({ color = 'currentColor', size = '24', ...otherProps }) => (
-    <svg ${attrs}>
+  const ${ComponentName} = ({ color = 'currentColor', size = '24', ...otherProps }) => {
+    // Convert otherProps to a string of attributes
+    const otherPropsString = Object.entries(otherProps)
+      .map(([key, value]) => \`\${key}="\${value}"\`)
+      .join( ' ');
+
+    // Construct the XML string
+    const xml = \`
+      <svg ${attrs} \${otherPropsString}>
       ${svgCode}
-    </svg>
-  );
+      </svg>
+    \`;
+
+    return <SvgXml xml={xml} width='100%' height='100%' />; };
 
   ${ComponentName}.propTypes = {
     color: PropTypes.string,
