@@ -6,21 +6,20 @@ const configList = require('./rollup.config');
 const livereload = require('rollup-plugin-livereload');
 
 const resolveFile = function (filePath) {
-  return path.join(__dirname, '..', filePath)
-}
+  return path.join(__dirname, '..', filePath);
+};
 const PORT = 3000;
 
 const devSite = `http://127.0.0.1:${PORT}`;
 
 setTimeout(() => {
-  console.log(`[dev]: ${devSite}`)
+  console.log(`[dev]: ${devSite}`);
 }, 1000);
 
 configList.map((config, index) => {
-
   config.watch = {
-    exclude: 'node_modules/**'
-  }
+    exclude: 'node_modules/**',
+  };
 
   config.output.sourcemap = true;
 
@@ -30,15 +29,14 @@ configList.map((config, index) => {
       ...[
         serve({
           port: PORT,
-          contentBase: [resolveFile('./docs')]
+          contentBase: [resolveFile('./docs')],
         }),
         livereload(),
-      ]
-    ]
+      ],
+    ];
   }
 
   return config;
-})
-
+});
 
 module.exports = configList;

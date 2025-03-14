@@ -23,7 +23,7 @@ const CreditCard = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 CreditCard.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default CreditCard;

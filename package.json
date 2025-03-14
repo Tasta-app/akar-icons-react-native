@@ -29,6 +29,8 @@
   "homepage": "https://akaricons.com",
   "scripts": {
     "fetch": "node bin/fetchSVG.js",
+    "format:local": "prettier --config package.json --ignore-path .prettierignore --write .",
+    "format:ci": "prettier --config package.json --ignore-path .prettierignore --check .",
     "generate": "sudo rm -rf src/icons && node bin/build.js",
     "build:bundle": "sudo rm -rf dist && node_modules/.bin/rollup --c ./build/rollup.config.bundle.js",
     "dev": "rollup -w -c ./build/rollup.config.dev.js",
@@ -38,10 +40,10 @@
     "style": "stroke"
   },
   "prettier": {
-    "tabwidth": 2,
+    "tabWidth": 2,
     "semi": true,
     "singleQuote": true,
-    "maxLineLength": 100
+    "trailingComma": "es5"
   },
   "license": "MIT",
   "peerDependencies": {

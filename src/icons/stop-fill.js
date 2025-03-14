@@ -22,7 +22,7 @@ const StopFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 StopFill.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default StopFill;

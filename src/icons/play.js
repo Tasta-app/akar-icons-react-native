@@ -24,7 +24,7 @@ const Play = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 Play.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default Play;

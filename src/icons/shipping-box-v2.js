@@ -29,7 +29,7 @@ const ShippingBoxV2 = ({
 
 ShippingBoxV2.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default ShippingBoxV2;

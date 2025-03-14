@@ -26,7 +26,7 @@ const Dice2 = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 Dice2.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default Dice2;

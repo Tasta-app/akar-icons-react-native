@@ -25,7 +25,7 @@ const SassFill = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 SassFill.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default SassFill;

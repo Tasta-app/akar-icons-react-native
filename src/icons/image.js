@@ -24,7 +24,7 @@ const Image = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 Image.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default Image;

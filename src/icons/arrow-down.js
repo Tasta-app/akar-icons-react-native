@@ -23,7 +23,7 @@ const ArrowDown = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 ArrowDown.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default ArrowDown;

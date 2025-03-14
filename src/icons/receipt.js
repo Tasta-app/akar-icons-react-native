@@ -26,7 +26,7 @@ const Receipt = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 Receipt.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default Receipt;

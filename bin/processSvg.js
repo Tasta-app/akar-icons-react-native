@@ -37,8 +37,8 @@ async function optimize(svg) {
             },
           },
         ],
-      }).data,
-    ),
+      }).data
+    )
   );
 }
 
@@ -64,7 +64,7 @@ async function processSvg(svg) {
     .then((svg) => svg.replace(/;/g, ''))
     .then(removeSVGElement)
     .then((svg) =>
-      svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`),
+      svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`)
     );
   return optimized;
 }

@@ -25,7 +25,7 @@ const Network = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 Network.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default Network;

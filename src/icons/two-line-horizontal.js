@@ -26,7 +26,7 @@ const TwoLineHorizontal = ({
 
 TwoLineHorizontal.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default TwoLineHorizontal;

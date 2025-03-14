@@ -4,21 +4,25 @@ const getAttrs = (style) => {
     width: 'size',
     height: 'size',
     viewBox: '0 0 24 24',
-  }
+  };
   const fillAttrs = {
     fill: 'color',
-    otherProps: '...otherProps'
-  }
+    otherProps: '...otherProps',
+  };
   const strokeAttrs = {
     fill: 'none',
     stroke: 'color',
     strokeWidth: 2,
     strokeLinecap: 'round',
     strokeLinejoin: 'round',
-    otherProps: '...otherProps'
-  }
-  return Object.assign({}, baseAttrs, style === 'fill' ? fillAttrs : strokeAttrs)
-}
+    otherProps: '...otherProps',
+  };
+  return Object.assign(
+    {},
+    baseAttrs,
+    style === 'fill' ? fillAttrs : strokeAttrs
+  );
+};
 
 const getElementCode = (ComponentName, attrs, svgCode) => `
   import React from 'react';
@@ -41,6 +45,6 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   }
 
   export default ${ComponentName}
-`
+`;
 
-module.exports = { getAttrs, getElementCode }
+module.exports = { getAttrs, getElementCode };

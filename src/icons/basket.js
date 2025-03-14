@@ -26,7 +26,7 @@ const Basket = ({ color = 'currentColor', size = '24', ...otherProps }) => {
 
 Basket.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default Basket;
