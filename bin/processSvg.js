@@ -1,5 +1,5 @@
-const Svgo = require('svgo');
-const cheerio = require('cheerio')
+const { optimize: optimizeSvgo } = require('svgo');
+const cheerio = require('cheerio');
 
 /**
  * Convert string to CamelCase.
@@ -7,28 +7,39 @@ const cheerio = require('cheerio')
  * @returns {string}
  */
 function CamelCase(str) {
-  return str.replace(/(^|-)([a-z])/g, (_, __, c) => c.toUpperCase())
+  return str.replace(/(^|-)([a-z])/g, (_, __, c) => c.toUpperCase());
 }
 
 /**
  * Optimize SVG with `svgo`.
  * @param {string} svg - An SVG string.
- * @returns {Promise<string>}
+ * @returns {string}
  */
-function optimize(svg) {
-  const svgo = new Svgo({
-    plugins: [
-      { convertPathData: { noSpaceAfterFlags: false } },
-      { convertShapeToPath: false },
-      { mergePaths: false },
-      { removeAttrs: { attrs: '(fill|stroke.*)' } },
-      { removeTitle: true },
-    ],
-  });
-
-  return new Promise(resolve => {
-    svgo.optimize(svg).then(({ data }) => resolve(data));
-  });
+async function optimize(svg) {
+  return new Promise((resolve) =>
+    resolve(
+      optimizeSvgo(svg, {
+        plugins: [
+          {
+            name: 'preset-default',
+            params: {
+              overrides: {
+                convertShapeToPath: false,
+                mergePaths: false,
+                removeTitle: true,
+              },
+            },
+          },
+          {
+            name: 'removeAttrs',
+            params: {
+              attrs: '(fill|stroke.*)',
+            },
+          },
+        ],
+      }).data
+    )
+  );
 }
 
 /**
@@ -50,9 +61,11 @@ async function processSvg(svg) {
   const optimized = await optimize(svg)
     // remove semicolon inserted by prettier
     // because prettier thinks it's formatting JSX not HTML
-    .then(svg => svg.replace(/;/g, ''))
+    .then((svg) => svg.replace(/;/g, ''))
     .then(removeSVGElement)
-    .then(svg => svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`))
+    .then((svg) =>
+      svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`)
+    );
   return optimized;
 }
 

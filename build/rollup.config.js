@@ -8,15 +8,12 @@ const copy = require('rollup-plugin-copy');
 const json = require('@rollup/plugin-json');
 
 const resolveFile = function (filePath) {
-  return path.join(__dirname, '..', filePath)
-}
+  return path.join(__dirname, '..', filePath);
+};
 
 const babelOptions = {
-  "presets": [
-    '@babel/preset-env',
-    '@babel/preset-react'
-  ]
-}
+  presets: ['@babel/preset-env', '@babel/preset-react'],
+};
 
 module.exports = [
   {
@@ -28,19 +25,19 @@ module.exports = [
     plugins: [
       copy({
         targets: [
-          { src: resolveFile('public/**/*'), dest: resolveFile('docs') }
-        ]
+          { src: resolveFile('public/**/*'), dest: resolveFile('docs') },
+        ],
       }),
       postcss(),
       nodeResolve(),
       commonjs({
-        exclude: 'src/**'
+        exclude: 'src/**',
       }),
       babel(babelOptions),
       replace({
-        'process.env.NODE_ENV': JSON.stringify('production')
+        'process.env.NODE_ENV': JSON.stringify('production'),
       }),
       json(),
     ],
   },
-]
+];
