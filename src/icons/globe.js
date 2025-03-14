@@ -15,13 +15,7 @@ const Globe = ({ color = 'currentColor', size = '24', ...otherProps }) => (
     {...otherProps}
   >
     <circle cx="12" cy="12" r="10" />
-    <ellipse
-      cx="12"
-      cy="12"
-      rx="10"
-      ry="4"
-      transform="rotate(90 12 12)"
-    />
+    <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(90 12 12)" />
     <path d="M2 12h20" />
   </svg>
 );

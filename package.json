@@ -1,20 +1,28 @@
 {
-  "name": "akar-icons",
-  "version": "1.9.31",
+  "name": "akar-icons-react-native",
+  "version": "0.0.1",
   "description": "A perfectly rounded icon library made for everyone.",
   "main": "dist/index.js",
   "typings": "dist/icons.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/artcoholic/akar-icons.git",
+  "repository": "https://github.com/Tasta-app/akar-icons-react-native.git",
   "author": {
-    "name": "Arturo Wibawa",
-    "email": "agwibawa@gmail.com",
-    "url": "https://arturowibawa.com"
+    "name": "GuillaumeOj",
+    "email": "7831777+GuillaumeOj@users.noreply.github.com",
+    "url": "https://github.com/Tasta-app/"
   },
+  "contributors": [
+    {
+      "name": "Arturo Wibawa",
+      "email": "agwibawa@gmail.com",
+      "url": "https://arturowibawa.com"
+    }
+  ],
   "keywords": [
     "react",
+    "react-native",
     "icons",
     "svg",
     "inline",
@@ -24,9 +32,9 @@
     "library"
   ],
   "bugs": {
-    "url": "https://github.com/artcoholic/akar-icons/issues"
+    "url": "https://github.com/Tasta-app/akar-icons-react-native/issues"
   },
-  "homepage": "https://akaricons.com",
+  "homepage": "https://github.com/Tasta-app/akar-icons-react-native",
   "scripts": {
     "fetch": "node bin/fetchSVG.js",
     "format:local": "prettier --config package.json --ignore-path .prettierignore --write .",
