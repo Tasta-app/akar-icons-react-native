@@ -5,25 +5,23 @@ const ChevronVertical = ({
   color = 'currentColor',
   size = '24',
   ...otherProps
-}) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      {...otherProps}
-    >
-      <path d="m8 17 4 4 4-4"></path>
-      <path d="m8 7 4-4 4 4"></path>
-    </svg>
-  );
-};
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...otherProps}
+  >
+    <path d="m8 17 4 4 4-4" />
+    <path d="m8 7 4-4 4 4" />
+  </svg>
+);
 
 ChevronVertical.propTypes = {
   color: PropTypes.string,

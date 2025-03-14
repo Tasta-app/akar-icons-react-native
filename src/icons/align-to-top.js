@@ -1,26 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const AlignToTop = ({ color = 'currentColor', size = '24', ...otherProps }) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      {...otherProps}
-    >
-      <path d="M12 22V7"></path>
-      <path d="m5 14 7-7 7 7"></path>
-      <path d="M3 2h18"></path>
-    </svg>
-  );
-};
+const AlignToTop = ({ color = 'currentColor', size = '24', ...otherProps }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...otherProps}
+  >
+    <path d="M12 22V7" />
+    <path d="m5 14 7-7 7 7" />
+    <path d="M3 2h18" />
+  </svg>
+);
 
 AlignToTop.propTypes = {
   color: PropTypes.string,

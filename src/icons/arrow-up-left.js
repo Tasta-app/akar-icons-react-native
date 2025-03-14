@@ -5,25 +5,23 @@ const ArrowUpLeft = ({
   color = 'currentColor',
   size = '24',
   ...otherProps
-}) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      {...otherProps}
-    >
-      <path d="m6 6 12 12"></path>
-      <path d="M16 6H6v10"></path>
-    </svg>
-  );
-};
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...otherProps}
+  >
+    <path d="m6 6 12 12" />
+    <path d="M16 6H6v10" />
+  </svg>
+);
 
 ArrowUpLeft.propTypes = {
   color: PropTypes.string,

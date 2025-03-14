@@ -5,25 +5,23 @@ const ArrowForward = ({
   color = 'currentColor',
   size = '24',
   ...otherProps
-}) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      {...otherProps}
-    >
-      <path d="m16 5 5 5-5 5"></path>
-      <path d="M21 10h-8C7.477 10 3 14.477 3 20v1"></path>
-    </svg>
-  );
-};
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={color}
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...otherProps}
+  >
+    <path d="m16 5 5 5-5 5" />
+    <path d="M21 10h-8C7.477 10 3 14.477 3 20v1" />
+  </svg>
+);
 
 ArrowForward.propTypes = {
   color: PropTypes.string,

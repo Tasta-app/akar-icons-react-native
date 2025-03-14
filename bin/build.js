@@ -74,10 +74,24 @@ const generateIconCode = async ({ name }) => {
     attrsToString(getAttrs(names.style), names.style),
     svgCode
   );
-  const component = format({
+  const component = await format({
     text: element,
     eslintConfig: {
-      extends: 'airbnb',
+      overrideConfig: {
+        extends: ['airbnb', 'plugin:react/recommended'],
+        plugins: ['react'],
+        rules: {
+          'react/function-component-definition': [
+            2,
+            { namedComponents: 'arrow-function' },
+          ],
+        },
+        settings: {
+          react: {
+            version: '18.3',
+          },
+        },
+      },
     },
     prettierOptions: {
       bracketSpacing: true,

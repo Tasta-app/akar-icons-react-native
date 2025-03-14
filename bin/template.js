@@ -28,13 +28,11 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   import React from 'react';
   import PropTypes from 'prop-types';
 
-  const ${ComponentName} = ({ color = 'currentColor', size = '24', ...otherProps }) => {
-    return (
-      <svg ${attrs}>
-        ${svgCode}
-      </svg>
-    )
-  };
+  const ${ComponentName} = ({ color = 'currentColor', size = '24', ...otherProps }) => (
+    <svg ${attrs}>
+      ${svgCode}
+    </svg>
+  );
 
   ${ComponentName}.propTypes = {
     color: PropTypes.string,
